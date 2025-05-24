@@ -46,6 +46,33 @@ The experiments are based on the **CICAPT-IIOT 2024** dataset, which is designed
 
 ---
 
+---
+
+## 🧠 ONNX Format & Raspberry Pi Compatibility
+
+To support **deployment on edge devices**, we have added `.onnx` versions of the trained models.
+
+- 📦 **Directory**: `onnx_models/`
+  - Contains ONNX-exported models
+  - Includes sample inference script: `inference_rpi.py`
+
+- ✅ **Why ONNX?**
+  - Optimized for low-power devices like **Raspberry Pi**
+  - Portable across platforms using runtimes like:
+    - [ONNX Runtime](https://onnxruntime.ai/)
+    - TensorRT
+    - OpenVINO
+  - Enables **real-time APT detection** in IIoT environments with minimal resources
+
+> These additions make it easier to deploy the models directly on **ARM-based edge nodes**, such as Raspberry Pi 4 or other embedded 6G cybersecurity devices.
+
+---
+
+
+
+
+---
+
 ## 🔧 Baseline Enhancements
 
 Modified versions of:
