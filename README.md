@@ -16,8 +16,7 @@ This repository contains the source code, experimental setup, and modified basel
 
 ## 🧪 Experiment Summary
 
-- Experiments were conducted on 3 dataset subsets: 5%, 30%, and 100%.
-- Final paper results are based on `subset30_original.py`.
+- Experiments were conducted on 3 dataset subsets: 5%, 30%, and 100%. 
 - Focus: APT detection in IIoT environments, targeted for edge-based 6G cybersecurity architectures.
 
 ---
