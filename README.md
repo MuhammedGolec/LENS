@@ -8,8 +8,7 @@ This repository contains the source code, experimental setup, and modified basel
 
 ## 📁 Repository Structure
 
-- `subset5.py`, `subset30.py`, `subset100.py`: Run experiments on different portions of the dataset (5%, 30%, and 100%).
-- `subset30_original.py`: Final implementation used to generate the main results in the paper.
+- You can find main codes in LENS.ipynb
 - `deeplog_modified/`, `earlycrow_modified/`: Modified versions of the baseline models DeepLog and EarlyCrow.
 - `notes/`: Contains original experiment notes (initially written in Turkish, now translated).
 
